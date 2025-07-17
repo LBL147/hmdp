@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f625d85-4272-4900-bd1e-eac694e08e0a" name="Changes" comment="基于Session实现登录流程">
+    <list default="true" id="6f625d85-4272-4900-bd1e-eac694e08e0a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/config/MvcConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/utils/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/utils/LoginInterceptor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
@@ -41,28 +46,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/work/hmdp/hm-dianping&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "redis__login",
+    "last_opened_file_path": "C:/work/hmdp/hm-dianping/hm-dianping/src/main/java/com/hmdp/utils",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\hmdp\hm-dianping\hm-dianping\src\main\java\com\hmdp\utils" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hmdp.utils" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -89,7 +102,7 @@
       <updated>1752673235083</updated>
       <workItem from="1752673236105" duration="216000" />
       <workItem from="1752673464199" duration="2225000" />
-      <workItem from="1752715545943" duration="5654000" />
+      <workItem from="1752715545943" duration="10688000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <option name="closed" value="true" />
@@ -99,7 +112,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752675382214</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="基于Session实现登录流程">
+      <option name="closed" value="true" />
+      <created>1752721567245</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752721567245</updated>
+    </task>
+    <task id="LOCAL-00003" summary="基于Session实现登录流程">
+      <option name="closed" value="true" />
+      <created>1752721597614</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752721597614</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
