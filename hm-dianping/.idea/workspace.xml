@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f625d85-4272-4900-bd1e-eac694e08e0a" name="Changes" comment="">
+    <list default="true" id="6f625d85-4272-4900-bd1e-eac694e08e0a" name="Changes" comment="Redis代替session的业务流程">
+      <change afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/utils/RefreshTokenInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/config/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/utils/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/utils/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/ShopController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IShopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IShopTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IShopTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/ShopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/ShopServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/ShopTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/ShopTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/test/java/com/hmdp/HmDianPingApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/test/java/com/hmdp/HmDianPingApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,28 +50,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "redis__login",
-    "last_opened_file_path": "C:/work/hmdp/hm-dianping/hm-dianping/src/main/java/com/hmdp/utils",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;redis__login&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/work/hmdp/hm-dianping/hm-dianping/src/main/java/com/hmdp/utils&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\work\hmdp\hm-dianping\hm-dianping\src\main\java\com\hmdp\utils" />
@@ -83,7 +90,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.HmDianPingApplicationTests.testSaveShop">
+    <configuration name="HmDianPingApplicationTests.testSaveShop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hm-dianping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hmdp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hmdp" />
+      <option name="MAIN_CLASS_NAME" value="com.hmdp.HmDianPingApplicationTests" />
+      <option name="METHOD_NAME" value="testSaveShop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HmDianPingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="hm-dianping" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmdp.HmDianPingApplication" />
@@ -91,6 +114,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HmDianPingApplicationTests.testSaveShop" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -102,7 +130,9 @@
       <updated>1752673235083</updated>
       <workItem from="1752673236105" duration="216000" />
       <workItem from="1752673464199" duration="2225000" />
-      <workItem from="1752715545943" duration="10688000" />
+      <workItem from="1752715545943" duration="16138000" />
+      <workItem from="1752809273749" duration="7911000" />
+      <workItem from="1752829479032" duration="1255000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <option name="closed" value="true" />
@@ -128,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752721597614</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Redis代替session的业务流程">
+      <option name="closed" value="true" />
+      <created>1752753675186</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752753675186</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +175,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
     <MESSAGE value="基于Session实现登录流程" />
-    <option name="LAST_COMMIT_MESSAGE" value="基于Session实现登录流程" />
+    <MESSAGE value="Redis代替session的业务流程" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redis代替session的业务流程" />
   </component>
 </project>
