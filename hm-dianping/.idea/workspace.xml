@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f625d85-4272-4900-bd1e-eac694e08e0a" name="Changes" comment="Redis代替session的业务流程">
-      <change afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/utils/RefreshTokenInterceptor.java" afterDir="false" />
+    <list default="true" id="6f625d85-4272-4900-bd1e-eac694e08e0a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/ShopController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IShopService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IShopTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IShopTypeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/ShopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/ShopServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/ShopTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/ShopTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/HmDianPingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/HmDianPingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/VoucherOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/VoucherOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IVoucherOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IVoucherOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/VoucherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/VoucherServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hm-dianping/src/test/java/com/hmdp/HmDianPingApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/test/java/com/hmdp/HmDianPingApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +61,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;redis__login&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/work/hmdp/hm-dianping/hm-dianping/src/main/java/com/hmdp/utils&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/work/hmdp/hm-dianping/hm-dianping/src/main/resources&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -77,6 +78,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\hmdp\hm-dianping\hm-dianping\src\main\resources" />
       <recent name="C:\work\hmdp\hm-dianping\hm-dianping\src\main\java\com\hmdp\utils" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -90,7 +92,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HmDianPingApplicationTests.testSaveShop">
+  <component name="RunManager" selected="JUnit.HmDianPingApplicationTests.testIdWorker">
+    <configuration name="HmDianPingApplicationTests.testIdWorker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hm-dianping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hmdp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hmdp" />
+      <option name="MAIN_CLASS_NAME" value="com.hmdp.HmDianPingApplicationTests" />
+      <option name="METHOD_NAME" value="testIdWorker" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HmDianPingApplicationTests.testSaveShop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hm-dianping" />
       <extension name="coverage">
@@ -114,8 +132,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HmDianPingApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hm-dianping" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=8082" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmdp.HmDianPingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HmDianPingApplicationTests.testIdWorker" />
         <item itemvalue="JUnit.HmDianPingApplicationTests.testSaveShop" />
       </list>
     </recent_temporary>
@@ -132,7 +159,10 @@
       <workItem from="1752673464199" duration="2225000" />
       <workItem from="1752715545943" duration="16138000" />
       <workItem from="1752809273749" duration="7911000" />
-      <workItem from="1752829479032" duration="1255000" />
+      <workItem from="1752829479032" duration="5195000" />
+      <workItem from="1752912996452" duration="5857000" />
+      <workItem from="1752981461108" duration="9365000" />
+      <workItem from="1753065987600" duration="2951000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <option name="closed" value="true" />
@@ -166,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752753675186</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="商户查询缓存Redis">
+      <option name="closed" value="true" />
+      <created>1752830966451</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1752830966451</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +214,7 @@
     <MESSAGE value="start" />
     <MESSAGE value="基于Session实现登录流程" />
     <MESSAGE value="Redis代替session的业务流程" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redis代替session的业务流程" />
+    <MESSAGE value="商户查询缓存Redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="商户查询缓存Redis" />
   </component>
 </project>
