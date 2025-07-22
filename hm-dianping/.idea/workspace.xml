@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f625d85-4272-4900-bd1e-eac694e08e0a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hm-dianping/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/HmDianPingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/HmDianPingApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/VoucherOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/VoucherOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IVoucherOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IVoucherOrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/VoucherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/VoucherServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-dianping/src/test/java/com/hmdp/HmDianPingApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/test/java/com/hmdp/HmDianPingApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/FollowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/FollowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IBlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IBlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IFollowService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IFollowService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/BlogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/FollowServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/FollowServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/utils/SystemConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/utils/SystemConstants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +165,8 @@
       <workItem from="1752829479032" duration="5195000" />
       <workItem from="1752912996452" duration="5857000" />
       <workItem from="1752981461108" duration="9365000" />
-      <workItem from="1753065987600" duration="2951000" />
+      <workItem from="1753065987600" duration="15880000" />
+      <workItem from="1753162855292" duration="5748000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <option name="closed" value="true" />
@@ -204,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752830966451</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="分布式锁-redission">
+      <option name="closed" value="true" />
+      <created>1753080652386</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1753080652386</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +227,7 @@
     <MESSAGE value="基于Session实现登录流程" />
     <MESSAGE value="Redis代替session的业务流程" />
     <MESSAGE value="商户查询缓存Redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="商户查询缓存Redis" />
+    <MESSAGE value="分布式锁-redission" />
+    <option name="LAST_COMMIT_MESSAGE" value="分布式锁-redission" />
   </component>
 </project>
